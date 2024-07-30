@@ -23,7 +23,7 @@ class AppServiceProvider extends ServiceProvider
     {
         RedirectIfAuthenticated::redirectUsing(function () {
             if (Auth::guard('user')->check()) {
-                return route('user.dashboard');
+                return route('dashboard');
             }
 
             if (Auth::guard('admin')->check()) {

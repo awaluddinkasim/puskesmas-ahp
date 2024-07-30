@@ -80,5 +80,11 @@ return [
             'route-name' => 'dashboard',
             'icon' => 'home',
         ],
+        [
+            'active-segment' => 'absensi',
+            'label' => 'Absensi',
+            'route-name' => 'absensi',
+            'icon' => 'clipboard',
+        ],
     ],
 ];
